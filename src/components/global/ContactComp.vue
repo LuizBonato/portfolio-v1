@@ -21,7 +21,7 @@ const contactInfo = [
     icon: Whatsapp,
     label: 'WhatsApp',
     value: '+55 (41) 99820-2894',
-    link: 'https://wa.me/55419984202894'
+    link: 'https://wa.me/5541984202894'
   }
 ]
 
@@ -400,6 +400,7 @@ onMounted(() => {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 30%;
   transition: all 0.3s ease;
 }
 

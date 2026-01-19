@@ -6,8 +6,8 @@
       handle="luizbonato"
       status="Online"
       contact-text="Explore Projects"
-      avatar-url="/perfil.png"
-      mini-avatar-url="/perfil1.png"
+      :avatar-url="`${baseUrl}perfil.png`"
+      :mini-avatar-url="`${baseUrl}perfil1.png`"
       :show-behind-gradient="true"
       :enable-tilt="true"
       @contact-click="goPortfolio"
@@ -20,6 +20,7 @@ import { useRouter } from "vue-router";
 import ProfileCard from "@/components/ProfileCard.vue";
 
 const router = useRouter();
+const baseUrl = import.meta.env.BASE_URL;
 const goPortfolio = () => router.push('/home');
 </script>
 
