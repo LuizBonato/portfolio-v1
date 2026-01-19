@@ -69,8 +69,7 @@ onMounted(() => {
         <div class="section-header">
           <h2>Vamos Conversar!</h2>
           <p class="subtitle">
-            Tem uma ideia incrível? Vamos transformá-la em realidade juntos. 
-            Entre em contato e vamos discutir seu próximo projeto.
+            Tem uma ideia ou um desafio técnico para resolver? Vamos conversar sobre como transformar isso em uma solução prática e bem estruturada.
           </p>
           <p class="subtitle">
             Ou se for uma empresa e estiver interessada em me contratar, entre em contato comigo!

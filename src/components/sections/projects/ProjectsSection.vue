@@ -24,7 +24,7 @@ onMounted(() => {
     <section class="projects-section" ref="aboutSection" :class="{ 'visible': isVisible }">
         <div class="title">
             <h2>Projetos em Destaque</h2>
-            <p>Alguns dos projetos que desenvolvi, demonstrando minhas habilidades e experiência.</p>
+            <p>Alguns dos projetos que desenvolvi e participei ativamente, demonstrando minhas habilidades técnicas e experiência prática.</p>
         </div>
         <div class="container">
             <CardProject :projects="projects" />
