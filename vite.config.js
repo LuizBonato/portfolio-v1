@@ -15,5 +15,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  base: '/Porfolio/',   // NOME EXATO DO REPOSITORIO
+  base: '/portfolio-v1/',   // NOME EXATO DO REPOSITORIO
 })
