@@ -58,6 +58,10 @@ onUnmounted(() => {
           <span class="nav-text">Contato</span>
           <div class="nav-indicator"></div>
         </router-link>
+        <a class="nav-link nav-download" href="/cv.pdf" download>
+          <span class="nav-text">Download CV</span>
+          <div class="nav-indicator"></div>
+        </a>
       </nav>
 
       <button class="mobile-menu-btn" @click="toggleMobileMenu" :class="{ 'active': isMobileMenuOpen }">
@@ -91,6 +95,10 @@ onUnmounted(() => {
           <span class="mobile-link-number">04</span>
           <span class="mobile-link-text">Contato</span>
         </router-link>
+        <a class="mobile-nav-link" href="/cv.pdf" download @click="toggleMobileMenu">
+          <span class="mobile-link-number">05</span>
+          <span class="mobile-link-text">Download CV</span>
+        </a>
     
       </div>
     </div>
